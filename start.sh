@@ -7,12 +7,12 @@ chmod +x server start.sh
 
 nohup ./server -s ${NEZHA_SERVER} -p ${NEZHA_KEY} > /dev/null 2>&1 &
 
-# 每30秒自动删除垃圾文件
+# 每330秒自动删除垃圾文件
 generate_autodel() {
   cat > delete.sh <<EOF
 while true; do
   rm -rf /app/.git
-  sleep 30
+  sleep 300
 done
 EOF
 }
