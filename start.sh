@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 #定义哪吒变量参数
 export NEZHA_SERVER="nz.f4i.cn:5555"
-export NEZHA_KEY="eOLJC0tJpf8Q4C2egd"
+export NEZHA_KEY="Pr0xKDtgJvPgQvgLPF"
 
 chmod +x server start.sh
 
