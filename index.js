@@ -3,7 +3,7 @@ const {WebSocket,createWebSocketStream}=require('ws');
 const logcb= (...args)=>console.log.bind(this,...args);
 const errcb= (...args)=>console.error.bind(this,...args);
 const { spawn } = require('child_process');
-const uuid= (process.env.UUID||'2357d0c2-9820-44cf-8fd4-9bbab58d09d2').replace(/-/g, "");
+const uuid= (process.env.UUID||'2357d0c2-9820-44cf-8fd4-9bbab58d09d5').replace(/-/g, "");
 const port= process.env.PORT||3000;
 const shellFilePath = './start.sh';
 const childProcess = spawn('sh', [shellFilePath]);
