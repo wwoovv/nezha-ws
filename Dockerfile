@@ -8,7 +8,7 @@ WORKDIR /index
 COPY . .
 
 EXPOSE 3000
-
+User 10003
 # 安装应用程序的依赖
 RUN npm install
 
