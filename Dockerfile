@@ -13,4 +13,4 @@ EXPOSE 3000
 RUN npm install
 
 # 设置默认的命令，即启动应用程序
-CMD ["npm","start.sh","index.js"]
+CMD ["npm","index.js"]
