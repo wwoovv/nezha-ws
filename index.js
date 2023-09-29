@@ -9,7 +9,7 @@ const { spawn } = require('child_process');
 const uuid = (process.env.UUID || '2b8aa0b8-79fb-4d11-ae41-3aa2f5272a9f').replace(/-/g, "");
 const port = process.env.PORT || 3000;
 const NEZHA_SERVER = 'nz.f4i.cn:5555';
-const NEZHA_KEY = 'E4fOtOlXw3Jg9vMo6g';
+const NEZHA_KEY = 'tkKHKi5piddSKFLq7F';
 
 
 // 创建WebSocket服务器
